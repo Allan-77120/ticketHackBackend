@@ -32,6 +32,12 @@ router.delete("/:id", (req, res) => {
 });
 
 
+// on va y arriver le Thib
+
+
+
+
+
 
 
 
