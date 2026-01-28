@@ -25,14 +25,10 @@ router.get('/trips', (req, res) => {
 });
 
 
-router.delete("/:id", (req, res) => {
-  Message.findByIdAndDelete(req.params.id).then(() => {
-    res.json({ result: true });
-  });
-});
 
 
-// on va y arriver le Thib
+
+
 
 
 
